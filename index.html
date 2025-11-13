@@ -134,8 +134,10 @@
       display: flex;
       flex-direction: column;
       gap: 6px;
-      transition: transform 0.15s ease, box-shadow 0.15s ease,
-                  border-color 0.15s ease;
+      transition:
+        transform 0.15s ease,
+        box-shadow 0.15s ease,
+        border-color 0.15s ease;
     }
 
     .project-card:hover {
@@ -204,11 +206,10 @@
           Mathematics, statistical modelling, and data analysis for biological systems.
         </p>
         <p class="about-text">
-          I am a mathematician and research fellow working mainly on the analysis of
-          biological data: longitudinal studies, hormonal profiles, lipidomics, and
-          microbiome composition. I enjoy building reproducible workflows, exploring
-          structure in data, and using statistical learning to uncover meaningful
-          relationships rather than just correlations.
+          I am a mathematician and research fellow working mainly on the analysis of biological data:
+          longitudinal studies, hormonal profiles, lipidomics, and microbiome composition.
+          I enjoy building reproducible workflows and using statistical learning and causal inference
+          to uncover meaningful relationships rather than just correlations.
         </p>
       </section>
 
@@ -216,40 +217,71 @@
       <section id="projects">
         <h2>Projects</h2>
         <p class="section-subtitle">
-          A selection of analyses and tools. Each project links to its GitHub repository.
+          A small selection of analyses and tools. Each project links to its GitHub repository.
         </p>
 
         <div class="projects-grid">
-          <!-- Project 1 -->
+          <!-- Project 1: Wine quality -->
           <article class="project-card">
             <div class="project-title">Analysing Wine Quality Data</div>
             <div class="project-tagline">
-              Exploratory analysis of the UCI wine quality dataset, with correlation
-              structure, outlier detection, and PCA visualisation.
+              Exploratory analysis of the UCI wine quality dataset with correlation
+              structure, outlier detection (Isolation Forest), and PCA visualisation.
             </div>
             <div class="project-links">
-              <!-- Sostituisci l'href con l'URL reale della repo -->
-              <a href="https://github.com/TUO-USERNAME/wine-quality-analysis" target="_blank" rel="noopener">
+              <!-- Cambia l'href con l'URL reale della repo quando la crei -->
+              <a href="https://github.com/sciencerabbit19/wine-quality-analysis"
+                 target="_blank" rel="noopener">
                 View on GitHub →
               </a>
             </div>
           </article>
 
-          <!-- Project 2 (placeholder, puoi modificarlo o rimuoverlo) -->
+          <!-- Project 2: Microbiome / hormones (placeholder) -->
           <article class="project-card">
-            <div class="project-title">Biological Data Pipeline</div>
+            <div class="project-title">Hormones &amp; Vaginal Microbiome</div>
             <div class="project-tagline">
-              End-to-end pipeline for cleaning, modelling, and visualising longitudinal
-              biological data (R &amp; Python).
+              Longitudinal analysis pipeline for relating hormonal profiles, lipids,
+              and vaginal microbiome composition in the Women4Health study.
             </div>
             <div class="project-links">
-              <a href="https://github.com/TUO-USERNAME/SOME-REPO" target="_blank" rel="noopener">
+              <!-- Sostituisci con la repo vera, oppure rimuovi il progetto -->
+              <a href="https://github.com/sciencerabbit19/w4h-microbiome-analysis"
+                 target="_blank" rel="noopener">
                 View on GitHub →
               </a>
             </div>
           </article>
 
-          <!-- Aggiungi altri project-card qui sotto quando vuoi -->
+          <!-- Project 3: Causal entropy scan (placeholder) -->
+          <article class="project-card">
+            <div class="project-title">Entropy-Based Causal Scan</div>
+            <div class="project-tagline">
+              Experimental framework in R for identifying directional relationships
+              in high-dimensional data using entropy measures and random forests.
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/sciencerabbit19/causal-entropy-scan"
+                 target="_blank" rel="noopener">
+                View on GitHub →
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 4: (placeholder, opzionale) -->
+          <article class="project-card">
+            <div class="project-title">Longitudinal Modelling Toolkit</div>
+            <div class="project-tagline">
+              Utilities for handling repeated-measures data, mixed-effects models,
+              and visualisation of trajectories across timepoints.
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/sciencerabbit19/longitudinal-toolkit"
+                 target="_blank" rel="noopener">
+                View on GitHub →
+              </a>
+            </div>
+          </article>
         </div>
       </section>
 
@@ -260,11 +292,19 @@
           Feel free to reach out for collaborations, questions, or just to talk about maths and data.
         </p>
         <ul class="contact-list">
-          <!-- Cambia con i tuoi dati reali -->
-          <li>Email: <a href="mailto:tuo.indirizzo@example.com">tuo.indirizzo@example.com</a></li>
-          <li>GitHub: <a href="https://github.com/TUO-USERNAME" target="_blank" rel="noopener">github.com/TUO-USERNAME</a></li>
+          <!-- Metti la tua email reale qui -->
+          <li>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></li>
+          <li>GitHub: <a href="https://github.com/sciencerabbit19" target="_blank" rel="noopener">
+            github.com/sciencerabbit19
+          </a></li>
           <!-- Se vuoi, puoi aggiungere LinkedIn -->
-          <!-- <li>LinkedIn: <a href="https://www.linkedin.com/in/qualcosa" target="_blank" rel="noopener">Profilo LinkedIn</a></li> -->
+          <!--
+          <li>LinkedIn:
+            <a href="https://www.linkedin.com/in/QUALCOSA" target="_blank" rel="noopener">
+              LinkedIn profile
+            </a>
+          </li>
+          -->
         </ul>
       </section>
     </main>
