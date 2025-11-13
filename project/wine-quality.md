@@ -1,9 +1,3 @@
----
-layout: page
-title: "Analysing Wine Quality Data"
-permalink: /projects/wine-quality/
----
-
 # Analysing wine quality data
 
 Let's start by importing the data we want to analyse:
