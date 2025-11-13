@@ -24,7 +24,7 @@ First, let's take a look at the data:
 df.head()
 ```
 
-![image.png](Analysing%20wine%20quality%20data/image.png)
+![image.png](image.png)
 
 Let's examine the numerical summary of this dataset:
 
@@ -32,7 +32,7 @@ Let's examine the numerical summary of this dataset:
 df.describe().transpose()
 ```
 
-![image.png](Analysing%20wine%20quality%20data/image%201.png)
+![image.png](image%201.png)
 
 To understand the relationships between these variables, let's compute the correlation matrix and focus on the strongest correlations:
 
@@ -52,7 +52,7 @@ sns.heatmap(df.corr(),cmap = 'viridis',
 plt.show()
 ```
 
-![image.png](Analysing%20wine%20quality%20data/image%202.png)
+![image.png](image%202.png)
 
 We can see some important correlations. If we're interested in wine quality, we can gather useful clues here. For instance, alcohol content correlates positively with wine quality ($\rho = 0.48$), whereas volatile acidity correlates negatively with it ($\rho = -0.39$).
 
@@ -120,7 +120,7 @@ df_to_plot['outliers'] = df['outliers']
 
 Let's create a pair plot coloured by `quality_cat` and mark the outliers with purple crosses:
 
-![pairplot_prova.png](Analysing%20wine%20quality%20data/pairplot_prova.png)
+![pairplot_prova.png](pairplot_prova.png)
 
 This plot supports our hypothesis that alcohol improves wine quality while volatile acidity worsens it. The outliers appear spread throughout the data, which might suggest they aren't truly extreme—but this is simply due to our limited ability to perceive multidimensional data.
 
@@ -181,6 +181,6 @@ ax.set_ylabel('PC2', fontsize=10)
 plt.show()
 ```
 
-![biplot_prova.png](Analysing%20wine%20quality%20data/18a021a3-127d-4463-b74b-bf4e992afd07.png)
+![biplot_prova.png](18a021a3-127d-4463-b74b-bf4e992afd07.png)
 
 The outliers are now better positioned—far from the main cluster of data points. The arrows clearly show which variables contribute positively or negatively to wine quality.
