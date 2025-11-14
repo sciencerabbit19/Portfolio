@@ -8,7 +8,7 @@ Analysis of biological data · Statistics · Causal inference · Machine learnin
 ## 🧭 About this repository
 
 This repository hosts my personal portfolio.  
-It collects a selection of projects, analyses, and tools I have developed over the years, mainly in the context of:
+It showcases a selection of projects, analyses, and tools I have developed over the years, mostly focusing on:
 
 - statistical modelling  
 - causal inference  
@@ -16,31 +16,30 @@ It collects a selection of projects, analyses, and tools I have developed over t
 - longitudinal biological datasets  
 - microbiome, hormonal, and lipidomic data  
 
-My goal is to build clear, reproducible analyses that uncover structure in data rather than focusing solely on correlations.
+My goal is to build clear and reproducible workflows that uncover structure and meaningful relationships within complex datasets, rather than focusing merely on correlations.
 
 ---
 
 ## 📂 Selected Projects
 
 ### **1. Analysing Wine Quality Data**
-Exploratory analysis of the UCI Wine Quality dataset.  
-Includes correlation structure, dimensionality reduction (PCA), and Isolation Forest outlier detection.
+Exploratory analysis of the UCI Wine Quality dataset, including correlation structure, PCA dimensionality reduction, and Isolation Forest outlier detection.
 
 🔗 **Link:** https://github.com/sciencerabbit19/Portfolio/tree/main/wine-quality-analyses  
 
 ---
 
 ### **2. Women4Health – Hormones & Vaginal Microbiome**
-Longitudinal analysis pipeline for relating hormonal profiles, lipids, and vaginal microbiome composition.  
-Work includes mixed-effects modelling, robust statistical testing, and exploratory visualisation.
+Longitudinal analysis pipeline for exploring relationships between hormonal profiles, lipids, and vaginal microbiome composition.  
+Includes mixed-effects modelling, robust statistical tests, and exploratory visualisation tools.
 
 🔗 **Link:** https://github.com/Sanna-s-LAB
 
 ---
 
 ### **3. Astrolabe**
-Experimental framework in R for identifying candidate causal directions in high-dimensional datasets.  
-Combines entropy-based scoring, permutation robustness, and random forest feature importance.
+Experimental R framework for identifying candidate causal directions in high-dimensional datasets.  
+Combines entropy-based scoring, bootstrap and permutation robustness, and random forest importance measures.
 
 🔗 **Link:** https://github.com/astrolabe9698
 
@@ -48,18 +47,8 @@ Combines entropy-based scoring, permutation robustness, and random forest featur
 
 ## 🧑‍💻 About me
 
-I hold a Master's degree in Mathematics and currently work as a Research Fellow, focusing on statistical and machine-learning methods applied to biological and multi-omics data.  
-My background spans:
-
-- differential geometry  
-- category theory
-- topology  
+I hold a Master's degree in Mathematics, where I focused on differential geometry, category theory, and topology.  
+I later moved into machine learning and data science, and I currently work as a Research Fellow at the National Research Council (CNR), where I analyse a wide range of biological datasets and develop statistical and ML pipelines for multi-omics research.
 
 ---
-
-## 📬 Contact
-
-- **GitHub:** https://github.com/sciencerabbit19  
-- **Email:** your.email@example.com  
-
-Feel free to reach out for collaborations or discussions.
+---
