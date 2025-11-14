@@ -33,7 +33,7 @@ Exploratory analysis of the UCI Wine Quality dataset, including correlation stru
 Longitudinal analysis pipeline for exploring relationships between hormonal profiles, lipids, and vaginal microbiome composition.  
 Includes mixed-effects modelling, robust statistical tests, and exploratory visualisation tools.
 
-🔗 **Link:** https://github.com/Sanna-s-LAB
+🔗 **Link:** [https://github.com/Sanna-s-LAB](https://github.com/Sanna-s-LAB/Women4Health/tree/main/Code_for_Vinerbi_et_al)
 
 ---
 
