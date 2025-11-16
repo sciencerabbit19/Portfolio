@@ -339,7 +339,6 @@ Because the model is linear, the partial derivatives are constant and equal to t
 
 $$
 \frac{\partial \texttt{quality}}{\partial\texttt{PCA}_1} \approx \beta_1 \text{ and } \frac{\partial \texttt{quality}}{\partial\texttt{PCA}_2} \approx \beta_2
-
 $$
 
 Through code we can compute the gradient easily:
