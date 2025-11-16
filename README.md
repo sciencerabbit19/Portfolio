@@ -1,22 +1,18 @@
 # Fabio Chillotti
 
 **Mathematician & Data Scientist**  
-Analysis of biological data · Statistics · Causal inference · Machine learning
-
 ---
 
 ## 🧭 About this repository
 
 This repository hosts my personal portfolio.  
-It showcases a selection of projects, analyses, and tools I have developed over the years, mostly focusing on:
+It showcases a selection of projects, analyses, mostly focusing on:
 
 - statistical modelling  
 - causal inference  
 - machine learning  
 - longitudinal biological datasets  
-- microbiome, hormonal, and lipidomic data  
-
-My goal is to build clear and reproducible workflows that uncover structure and meaningful relationships within complex datasets, rather than focusing merely on correlations.
+- microbiome, hormonal, and lipidomic data
 
 ---
 
@@ -28,16 +24,17 @@ In this repository you'll find folders with the name of the project, basically w
 ---
 
 ### **2. Women4Health – Hormones & Vaginal Microbiome**
-Longitudinal analysis pipeline for exploring relationships between hormonal profiles, lipids, and vaginal microbiome composition.  
+Longitudinal analysis pipeline for exploring relationships between hormonal profiles, lipids, and vaginal microbiome composition.
 Includes mixed-effects modelling, robust statistical tests, and exploratory visualisation tools.
+Below you will find the link to the repository where the scripts related to my first paper are collected, of which I am one of the first authors.
 
 🔗 **Link:** [https://github.com/Sanna-s-LAB](https://github.com/Sanna-s-LAB/Women4Health/tree/main/Code_for_Vinerbi_et_al)
 
 ---
 
 ### **3. Astrolabe**
-Experimental R framework for identifying candidate causal directions in high-dimensional datasets.  
-Combines entropy-based scoring, bootstrap and permutation robustness, and random forest importance measures.
+Experimental R framework for identifying candidate causal directions in high-dimensional datasets, designed by me and a colleague (https://github.com/fgrosso98).
+It combines entropy-based scoring, bootstrap and permutation robustness, and random forest–based importance measures. The framework is still pending publication, but it will be released very soon.
 
 🔗 **Link:** https://github.com/astrolabe9698
 
