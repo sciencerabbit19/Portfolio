@@ -19,7 +19,7 @@ First, let's take a look at the data:
 df.head()
 ```
 
-![image.png](Part%201%20Exploratory%20analysis/image.png)
+![image.png](images/image.png)
 
 Let's examine the numerical summary of this dataset:
 
@@ -27,7 +27,7 @@ Let's examine the numerical summary of this dataset:
 df.describe().transpose()
 ```
 
-![image.png](Part%201%20Exploratory%20analysis/image%201.png)
+![image.png](images/image%201.png)
 
 To understand the relationships between these variables, let's compute the correlation matrix and focus on the strongest correlations:
 
@@ -60,7 +60,7 @@ sns.heatmap(
 plt.show()
 ```
 
-![image.png](Part%201%20Exploratory%20analysis/image%202.png)
+![image.png](images/image%202.png)
 
 We can see some important correlations. If we're interested in wine quality, we can gather useful clues here. For instance, alcohol content correlates positively with wine quality ($\rho = 0.48$), whereas volatile acidity correlates negatively with it ($\rho = -0.39$).
 
@@ -203,7 +203,7 @@ g.add_legend()
 
 ```
 
-![pairplot_prova.png](Part%201%20Exploratory%20analysis/pairplot_prova.png)
+![pairplot_prova.png](images/pairplot_prova.png)
 
 This plot supports our hypothesis that alcohol improves wine quality while volatile acidity worsens it. The outliers appear spread throughout the data, which might suggest they aren't truly extreme—but this is simply due to our limited ability to perceive multidimensional data.
 
@@ -281,7 +281,7 @@ ax.set_ylabel('PC2', fontsize=10)
 plt.show()
 ```
 
-![biplot_prova.png](Part%201%20Exploratory%20analysis/5caf2e36-4b21-42c6-80c3-35fdf01037f1.png)
+![biplot_prova.png](images/5caf2e36-4b21-42c6-80c3-35fdf01037f1.png)
 
 The outliers are now better positioned—far from the main cloud of data points. The arrows clearly show which variables contribute positively or negatively to wine quality.
 
@@ -313,7 +313,7 @@ quality_palette = {
 
 Then, create the plot just as we did earlier:
 
-![biplot_prova_detailed.png](Part%201%20Exploratory%20analysis/1b13e7ce-4559-4e40-b52c-235340afe4d8.png)
+![biplot_prova_detailed.png](images/1b13e7ce-4559-4e40-b52c-235340afe4d8.png)
 
 It would be very interesting to examine the direction of maximal increase in `quality`. At first glance, this direction appears to be expressible as a combination of `alcohol` and `citric acid` within the space spanned by the principal components.
 
@@ -449,7 +449,7 @@ ax.set_ylabel('PC2', fontsize=10)
 plt.show()
 ```
 
-![image.png](Part%201%20Exploratory%20analysis/65b8e42e-aa11-45b7-a8c3-a56916124001.png)
+![image.png](images/65b8e42e-aa11-45b7-a8c3-a56916124001.png)
 
 We can also assess how each feature relates to the gradient by calculating its scalar product with the gradient vector and the angle between them:
 
@@ -492,6 +492,6 @@ plt.ylabel('Angle between gradient and features (°)')
 plt.show()
 ```
 
-![barplot_angle.png](Part%201%20Exploratory%20analysis/7024db74-7156-43a7-862b-c35cffb6fcaf.png)
+![barplot_angle.png](images/7024db74-7156-43a7-862b-c35cffb6fcaf.png)
 
 Among the variables, `alcohol` aligns most closely with the gradient (i.e., it is the most parallel vector), whereas **free sulfur** `dioxide` aligns the least (i.e., it is the least parallel).
