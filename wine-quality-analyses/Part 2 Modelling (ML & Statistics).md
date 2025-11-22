@@ -115,17 +115,13 @@ p_values = compute_pvalues_linearly(X, y)
 Then we can visualise all the results in a single plot as follows:
 
 ```python
-# ------------------------------------------------------------------
 # Merge coefficient summary with p-values and create an effect label
-# ------------------------------------------------------------------
 summary_complete = summary.merge(p_values[['Feature', 'p-value']], on='Feature')
 summary_complete['Effect'] = summary_complete['Coef'].apply(
     lambda x: 'Positive' if x >= 0 else 'Negative'
 )
 
-# -----------------------------------------------------------------
 # Prepare dataframe for plotting: sort by absolute coefficient size
-# -----------------------------------------------------------------
 plot_df = summary_complete.sort_values(by='Coef', ascending=False).reset_index(drop=True)
 plot_df['Coef'] = plot_df['Coef'].abs()
 
