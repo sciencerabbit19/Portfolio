@@ -19,7 +19,7 @@ It showcases a selection of projects, analyses, mostly focusing on:
 ## 📂 Selected Projects
 
 ### 1. Free data analysis projects
-In this repository you'll find folders with the name of the project, basically with some file .md cointaing data analysis I perfomed on that public data just for fun. Enjoy it!
+In this repository you'll find folders with the name of the project, basically with some file .md cointaing data analysis I perfomed on that public data just for fun. Enjoy it! There shall be more soon!
 
 ---
 
