@@ -1,5 +1,3 @@
-# Fabio Chillotti
-
 **Mathematician & Data Scientist**  
 ---
 
