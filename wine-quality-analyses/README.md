@@ -1,4 +1,4 @@
-#Wine Quality Analysis – ML & Statistics
+# Wine Quality Analysis – ML & Statistics
 
 This project analyses the relationship between red wine chemical properties and quality using exploratory data analysis, statistical modelling, and machine learning.
 
