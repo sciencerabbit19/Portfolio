@@ -1,6 +1,6 @@
 # Wine Quality Analysis – ML & Statistics
 
-This project analyses the relationship between red wine chemical properties and quality using exploratory data analysis, statistical modelling, and machine learning.
+This project analyses the relationship between wine chemical properties and quality using exploratory data analysis, statistical modelling, and machine learning.
 
 The workflow includes correlation analysis, PCA, and outlier detection via Isolation Forest, followed by both regression and classification tasks. Interpretable models (Linear and Elastic Net) are compared with non-linear approaches such as Random Forests, using cross-validation for model selection.
 
