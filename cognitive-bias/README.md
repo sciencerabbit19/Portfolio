@@ -1,9 +1,3 @@
-# Cognitive Biases
-
-[Part 1. Scraping the data](https://www.notion.so/Part-1-Scraping-the-data-2ccb1ba1b40480178a86f40b97f809b0?pvs=21)
-
-[Part 2. Exploratory analysis](https://www.notion.so/Part-2-Exploratory-analysis-2d1b1ba1b404808d8682c2f151ac9e6b?pvs=21)
-
 # **Cognitive Bias and Misinformation Analysis on Social Media**
 
 ## **Overview**
