@@ -252,13 +252,7 @@ print(f"Total posts collected: {len(all_posts)}")
 # Convert the list of dictionaries into a pandas DataFrame
 df = pd.DataFrame(all_posts)
 
-# Preview the dataset
-display(df.head())
-
 ```
-
-![Screenshot 2025-12-18 alle 15.43.03.png](Part%201%20Scraping%20the%20data/Screenshot_2025-12-18_alle_15.43.03.png)
-
 Now it’s the moment to label this data using OLLAMA, the prompt will be the following:
 
 ```python
