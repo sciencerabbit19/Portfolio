@@ -6,8 +6,6 @@ Using data retrieved through the official platform APIs, posts are automatically
 
 The project then performs an exploratory data analysis (EDA) to examine how cognitive biases and truth labels are distributed across platforms and topics. Statistical tests are used to evaluate whether observed differences are significant.
 
-Rather than focusing on predictive modelling, the project emphasises distributional patterns, statistical associations, and methodological considerations.
-
 Let’s begin by importing the necessary libraries:
 
 ```python
