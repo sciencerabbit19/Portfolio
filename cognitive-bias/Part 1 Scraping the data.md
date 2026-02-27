@@ -4,7 +4,7 @@ This project investigates cognitive biases and how they influence the perception
 
 Using data retrieved through the official platform APIs, posts are automatically labeled with respect to both truthfulness and cognitive bias type using the phi-3:mini language model via Ollama. These labels are treated as a form of weak supervision and enable large-scale annotation without manual intervention.
 
-The project then performs an exploratory data analysis (EDA) to examine how cognitive biases and truth labels are distributed across platforms and topics. Statistical tests are used to evaluate whether observed differences are significant, and dimensionality reduction techniques are applied to explore structural patterns in textual representations.
+The project then performs an exploratory data analysis (EDA) to examine how cognitive biases and truth labels are distributed across platforms and topics. Statistical tests are used to evaluate whether observed differences are significant.
 
 Rather than focusing on predictive modelling, the project emphasises distributional patterns, statistical associations, and methodological considerations.
 
